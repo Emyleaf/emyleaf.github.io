@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Leaf - The Unforgiven</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--Cose per far funzionare JavaScript-->
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="shortcut icon" href="img/izi.jpg">
+  </head>
+  <body>
+    <!--Menù navbar-->
+   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top sticky-top">
+
+     <!--Il collapse serve per ridurre il menù-->
+     <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+
+     <div class="collapse navbar-collapse" id="collapse_target">
+     <!--Icona nel menù + nome-->
+     <a class="navbar-brand" href="index.html"><img src="img/izi.jpg" alt="icona_pagina" height="35" width="35"></a>
+     <span class="navbar-brand mb-0 h1">Leaf</span>
+     <span class="navbar-text"></span>
+
+     <!--Lista di sezioni nei menù, ogni li è una sezione-->
+     <ul class="navbar-nav">
+       <li class="nav-item">
+         <a class="nav-link" href="all_piano.html">Allenamento</a>
+       </li>
+       <!--Prima sezione dropdown-->
+       <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
+           Dieta
+           <span class="caret"></span>
+         </a>
+       <!--Elementi nel menù dropdown-->
+         <div class="dropdown-menu" aria-labelledby="dropdown_target">
+           <a class="dropdown-item" href="dieta_piano.html">Piano dieta</a>
+           <a class="dropdown-item" href="dieta_diario.html">Diario</a>
+         </div>
+       </li>
+       <!--Seconda sezione dropdown-->
+       <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
+           Università
+           <span class="caret"></span>
+         </a>
+       <!--Elementi nel menù dropdown-->
+         <div class="dropdown-menu" aria-labelledby="dropdown_target">
+           <a class="dropdown-item" href="uni_piano.html">Piano studio</a>
+           <a class="dropdown-item" href="uni_materie.html">Materie e crediti</a>
+         </div>
+       </li>
+     </ul>
+     </div>
+   </nav>
+   <!--Fine menù-->
+
+   <div class="container-fluid">
+     <div class="row">
+       <div class="col">
+        <h2 class="text-center">Materie e crediti</h2>
+        <hr>
+        <h4 class="text-center">Crediti che hai: 12</h4>
+        <h4 class="text-center">Crediti che mancano: 168</h4>
+       </div>
+     </div>
+   </div>
+
+  <div class="tabella">
+    <div class="row">
+      <div class="col">
+        <div class="table-responsive">
+         <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">Materia</th>
+              <th scope="col">Anno e semestre</th>
+              <th scope="col">Crediti</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table-warning">
+              <th scope="row">Programmazione I</th>
+              <td>1° prm</td>
+              <td>12</td>
+            </tr>
+            <tr class="table-danger">
+              <th scope="row">Logica per la programmazione</th>
+              <td>1° prm</td>
+              <td>6</td>
+            </tr>
+            <tr class="table-success">
+              <th scope="row">Analisi matematica</th>
+              <td>1° prm</td>
+              <td>9</td>
+            </tr>
+            <tr class="table-success">
+              <th scope="row">Inglese</th>
+              <td>Speciale</td>
+              <td>3</td>
+            </tr>
+            <tr class="table-warning">
+              <th scope="row">Algoritmica</th>
+              <td>1° snd</td>
+              <td>12</td>
+            </tr>
+            <tr class="table-warning">
+              <th scope="row">Matematica discreta e algebra lineare</th>
+              <td>1° snd</td>
+              <td>12</td>
+            </tr>
+            <tr class="table-danger">
+              <th scope="row">Fisica</th>
+              <td>1° snd</td>
+              <td>6</td>
+            </tr>
+            <tr class="table-danger">
+              <th scope="row">Architettura degli elaboratori</th>
+              <td>2° prm</td>
+              <td>9</td>
+            </tr>
+            <tr class="table-danger">
+              <th scope="row">Programmazione II</th>
+              <td>2° prm</td>
+              <td>9</td>
+            </tr>
+            <tr class="table-danger">
+              <th scope="row">Ricerca operativa</th>
+              <td>2° prm</td>
+              <td>6</td>
+            </tr>
+            <tr class="table-danger">
+              <th scope="row">Calcolo probabilità e statistica</th>
+              <td>2° prm</td>
+              <td>6</td>
+            </tr>
+            <tr class="table-danger">
+              <th scope="row">Sistemi operativi</th>
+              <td>2° snd</td>
+              <td>12</td>
+            </tr>
+            <tr class="table-danger">
+              <th scope="row">Basi di dati</th>
+              <td>2° snd</td>
+              <td>6</td>
+            </tr>
+            <tr class="table-danger">
+              <th scope="row">Ingegneria del software</th>
+              <td>2° snd</td>
+              <td>6</td>
+            </tr>
+            <tr class="table-danger">
+              <th scope="row">Calcolo numerico</th>
+              <td>2° snd</td>
+              <td>6</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+     </div>
+    </div>
+  </div>
+
+ </body>
+</html>
