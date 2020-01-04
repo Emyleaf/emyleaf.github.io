@@ -2,6 +2,12 @@ body { font-family: 'Montserrat', sans-serif; }
 .font-ink { font-family: 'Lobster'; font-size: 70px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 48.5714px; }
 /* Section */
 
+.sottile {
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid
+}
+
 hr {
   margin-bottom: 3rem;
   border: 0;
@@ -12,8 +18,8 @@ hr {
   position: relative;
   z-index: 2;
   font-size: 4rem;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 
 }
 
