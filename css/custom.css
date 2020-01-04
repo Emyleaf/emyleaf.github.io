@@ -23,6 +23,11 @@ hr {
 
 }
 
+.img-fluid{
+  max-width: 13rem;
+  height: auto;
+}
+
 .tabella{
   padding: 0.75rem;
 }
