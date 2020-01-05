@@ -28,6 +28,11 @@ hr {
   height: auto;
 }
 
+#showcase3 .container-fluid .img-fluid{
+  max-width: 10rem;
+  height: auto;
+}
+
 .tabella{
   padding: 0.75rem;
 }
