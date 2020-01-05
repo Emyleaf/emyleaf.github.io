@@ -12350,27 +12350,3 @@
         }))
     }).call(this, n(88)(t))
 }]);
-
-//line
-var ctxL = document.getElementById("lineChart").getContext('2d');
-var myLineChart = new Chart(ctxL, {
-type: 'line',
-data: {
-labels: ["Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno"],
-datasets: [{
-label: "Peso",
-data: [90, 80 , 75 , 70, 83, 54, 67],
-backgroundColor: [
-'rgba(255, 99, 132, 0.2)',
-],
-borderColor: [
-'rgb(255, 99, 132)',
-],
-borderWidth: 2
-}
-]
-},
-options: {
-responsive: true
-}
-});

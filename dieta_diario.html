@@ -10,6 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!--Cose per far funzionare JavaScript-->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/mdb.js"></script>
     <link rel="stylesheet" href="css/custom.css">
     <link rel="shortcut icon" href="img/izi_icon.png">
     <link rel="apple-touch-icon" href="img/izi_icon.png">
@@ -189,7 +190,31 @@
 
   </div>
 
-  <script src="js/mdb.js"></script>
+  <script>
+  //line
+  var ctxL = document.getElementById("lineChart").getContext('2d');
+  var myLineChart = new Chart(ctxL, {
+  type: 'line',
+  data: {
+  labels: ["Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno"],
+  datasets: [{
+  label: "Peso",
+  data: [90, 80 , 75 , 70, 83, 54, 67],
+  backgroundColor: [
+  'rgba(255, 99, 132, 0.2)',
+  ],
+  borderColor: [
+  'rgb(255, 99, 132)',
+  ],
+  borderWidth: 2
+  }
+  ]
+  },
+  options: {
+  responsive: true
+  }
+  });
+  </script>
 
 
  </body>
