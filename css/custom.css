@@ -36,6 +36,11 @@ hr {
   height: auto;
 }
 
+#accordion .img-fluid{
+  max-width: 11rem;
+  height: auto;
+}
+
 .tabella{
   padding: 0.75rem;
 }
