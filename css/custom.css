@@ -9,7 +9,6 @@ body { font-family: 'Montserrat', sans-serif; }
 }
 
 hr {
-  margin-bottom: 3rem;
   border: 0;
   border-top: 1px solid
 }
@@ -21,6 +20,10 @@ hr {
   padding-top: 2rem;
   padding-bottom: 1rem;
 
+}
+
+.fullwidth{
+  font-size: 1rem;
 }
 
 .img-fluid{
