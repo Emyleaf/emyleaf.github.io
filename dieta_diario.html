@@ -1,77 +1,79 @@
 <!DOCTYPE html>
 <html lang="it" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Leaf - The Unforgiven</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!--Cose per far funzionare JavaScript-->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/mdb.js"></script>
-    <link rel="stylesheet" href="css/custom.css">
-    <link rel="stylesheet" href="css/progress-tracker.css">
-    <link rel="shortcut icon" href="img/izi_icon.png">
-    <link rel="apple-touch-icon" href="img/izi_icon.png">
-  </head>
-  <body>
-    <!--Menù navbar-->
-   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top sticky-top">
 
-     <!--Il collapse serve per ridurre il menù-->
-     <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
-       <span class="navbar-toggler-icon"></span>
-     </button>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Leaf - The Unforgiven</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!--Cose per far funzionare JavaScript-->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/mdb.js"></script>
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/progress-tracker.css">
+  <link rel="shortcut icon" href="img/izi_icon.png">
+  <link rel="apple-touch-icon" href="img/izi_icon.png">
+</head>
 
-     <div class="collapse navbar-collapse" id="collapse_target">
-     <!--Icona nel menù + nome-->
-     <a class="navbar-brand" href="index.html"><img src="img/izi.jpg" alt="icona_pagina" height="35" width="35"></a>
-     <span class="navbar-brand mb-0 h1">Leaf</span>
-     <span class="navbar-text"></span>
+<body>
+  <!--Menù navbar-->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top sticky-top">
 
-     <!--Lista di sezioni nei menù, ogni li è una sezione-->
-     <ul class="navbar-nav">
-       <li class="nav-item">
-         <a class="nav-link" href="all_piano.html">Allenamento</a>
-       </li>
-       <!--Prima sezione dropdown-->
-       <li class="nav-item dropdown">
-         <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
-           Dieta
-           <span class="caret"></span>
-         </a>
-       <!--Elementi nel menù dropdown-->
-         <div class="dropdown-menu" aria-labelledby="dropdown_target">
-           <a class="dropdown-item" href="dieta_piano.html">Piano dieta</a>
-           <a class="dropdown-item" href="dieta_diario.html">Diario</a>
-         </div>
-       </li>
-       <!--Seconda sezione dropdown-->
-       <li class="nav-item dropdown">
-         <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
-           Università
-           <span class="caret"></span>
-         </a>
-       <!--Elementi nel menù dropdown-->
-         <div class="dropdown-menu" aria-labelledby="dropdown_target">
-           <a class="dropdown-item" href="uni_piano.html">Piano studio</a>
-           <a class="dropdown-item" href="uni_materie.html">Materie e crediti</a>
-         </div>
-       </li>
+    <!--Il collapse serve per ridurre il menù-->
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-       <li class="nav-item">
-         <a class="nav-link" href="switch_games.html">Switch</a>
-       </li>
-     </ul>
-     </div>
-   </nav>
-   <!--Fine menù-->
+    <div class="collapse navbar-collapse" id="collapse_target">
+      <!--Icona nel menù + nome-->
+      <a class="navbar-brand" href="index.html"><img src="img/izi.jpg" alt="icona_pagina" height="35" width="35"></a>
+      <span class="navbar-brand mb-0 h1">Leaf</span>
+      <span class="navbar-text"></span>
 
-   <div class="container-fluid">
-     <div class="row">
-       <div class="col">
+      <!--Lista di sezioni nei menù, ogni li è una sezione-->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="all_piano.html">Allenamento</a>
+        </li>
+        <!--Prima sezione dropdown-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
+            Dieta
+            <span class="caret"></span>
+          </a>
+          <!--Elementi nel menù dropdown-->
+          <div class="dropdown-menu" aria-labelledby="dropdown_target">
+            <a class="dropdown-item" href="dieta_piano.html">Piano dieta</a>
+            <a class="dropdown-item" href="dieta_diario.html">Diario</a>
+          </div>
+        </li>
+        <!--Seconda sezione dropdown-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
+            Università
+            <span class="caret"></span>
+          </a>
+          <!--Elementi nel menù dropdown-->
+          <div class="dropdown-menu" aria-labelledby="dropdown_target">
+            <a class="dropdown-item" href="uni_piano.html">Piano studio</a>
+            <a class="dropdown-item" href="uni_materie.html">Materie e crediti</a>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="switch_games.html">Switch</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--Fine menù-->
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
         <h2 class="text-center">Diario di bordo</h2>
         <hr>
       </div>
@@ -82,145 +84,145 @@
     <div class="row">
       <div class="col-lg-6">
 
-          <div class="fullwidth">
-              <div class="container separator">
+        <div class="fullwidth">
+          <div class="container separator">
 
-                <ul class="progress-tracker progress-tracker--left">
+            <ul class="progress-tracker progress-tracker--left">
 
-                  <li class="progress-step">
-                    <div class="progress-marker" data-text="1"></div>
-                  </li>
+              <li class="progress-step is-complete">
+                <div class="progress-marker" data-text="1"></div>
+              </li>
 
-                  <li class="progress-step">
-                    <div class="progress-marker" data-text="2"></div>
-                  </li>
+              <li class="progress-step">
+                <div class="progress-marker" data-text="2"></div>
+              </li>
 
-                  <li class="progress-step">
-                    <div class="progress-marker" data-text="3"></div>
-                  </li>
+              <li class="progress-step">
+                <div class="progress-marker" data-text="3"></div>
+              </li>
 
-                  <li class="progress-step">
-                    <div class="progress-marker" data-text="4"></div>
-                  </li>
+              <li class="progress-step">
+                <div class="progress-marker" data-text="4"></div>
+              </li>
 
-                  <li class="progress-step">
-                    <div class="progress-marker" data-text="5"></div>
-                  </li>
+              <li class="progress-step">
+                <div class="progress-marker" data-text="5"></div>
+              </li>
 
-                  <li class="progress-step">
-                    <div class="progress-marker" data-text="6"></div>
-                  </li>
+              <li class="progress-step">
+                <div class="progress-marker" data-text="6"></div>
+              </li>
 
-                  <li class="progress-step">
-                    <div class="progress-marker" data-text="7"></div>
-                  </li>
+              <li class="progress-step">
+                <div class="progress-marker" data-text="7"></div>
+              </li>
 
-                </ul>
+            </ul>
 
-                <ul class="progress-tracker progress-tracker--left">
+            <ul class="progress-tracker progress-tracker--left">
 
-                  <li class="progress-step">
-                    <div class="progress-marker" data-text="8"></div>
-                  </li>
+              <li class="progress-step">
+                <div class="progress-marker" data-text="8"></div>
+              </li>
 
-                  <li class="progress-step">
-                    <div class="progress-marker" data-text="9"></div>
-                  </li>
+              <li class="progress-step">
+                <div class="progress-marker" data-text="9"></div>
+              </li>
 
-                  <li class="progress-step">
-                    <div class="progress-marker" data-text="10"></div>
-                  </li>
+              <li class="progress-step">
+                <div class="progress-marker" data-text="10"></div>
+              </li>
 
-                  <li class="progress-step">
-                    <div class="progress-marker" data-text="11"></div>
-                  </li>
+              <li class="progress-step">
+                <div class="progress-marker" data-text="11"></div>
+              </li>
 
-                  <li class="progress-step">
-                    <div class="progress-marker" data-text="12"></div>
-                  </li>
+              <li class="progress-step">
+                <div class="progress-marker" data-text="12"></div>
+              </li>
 
-                  <li class="progress-step">
-                    <div class="progress-marker" data-text="13"></div>
-                  </li>
+              <li class="progress-step">
+                <div class="progress-marker" data-text="13"></div>
+              </li>
 
-                  <li class="progress-step">
-                    <div class="progress-marker" data-text="14"></div>
-                  </li>
+              <li class="progress-step">
+                <div class="progress-marker" data-text="14"></div>
+              </li>
 
-                </ul>
+            </ul>
 
-                <ul class="progress-tracker progress-tracker--left">
+            <ul class="progress-tracker progress-tracker--left">
 
-                  <li class="progress-step">
-                    <div class="progress-marker" data-text="15"></div>
-                  </li>
+              <li class="progress-step">
+                <div class="progress-marker" data-text="15"></div>
+              </li>
 
-                  <li class="progress-step">
-                    <div class="progress-marker" data-text="16"></div>
-                  </li>
+              <li class="progress-step">
+                <div class="progress-marker" data-text="16"></div>
+              </li>
 
-                  <li class="progress-step">
-                    <div class="progress-marker" data-text="17"></div>
-                  </li>
+              <li class="progress-step">
+                <div class="progress-marker" data-text="17"></div>
+              </li>
 
-                  <li class="progress-step">
-                    <div class="progress-marker" data-text="18"></div>
-                  </li>
+              <li class="progress-step">
+                <div class="progress-marker" data-text="18"></div>
+              </li>
 
-                  <li class="progress-step">
-                    <div class="progress-marker" data-text="19"></div>
-                  </li>
+              <li class="progress-step">
+                <div class="progress-marker" data-text="19"></div>
+              </li>
 
-                  <li class="progress-step">
-                    <div class="progress-marker" data-text="20"></div>
-                  </li>
+              <li class="progress-step">
+                <div class="progress-marker" data-text="20"></div>
+              </li>
 
-                  <li class="progress-step">
-                    <div class="progress-marker" data-text="21"></div>
-                  </li>
+              <li class="progress-step">
+                <div class="progress-marker" data-text="21"></div>
+              </li>
 
-                </ul>
+            </ul>
 
-                <ul class="progress-tracker progress-tracker--left">
+            <ul class="progress-tracker progress-tracker--left">
 
-                  <li class="progress-step">
-                    <div class="progress-marker" data-text="22"></div>
-                  </li>
+              <li class="progress-step">
+                <div class="progress-marker" data-text="22"></div>
+              </li>
 
-                  <li class="progress-step">
-                    <div class="progress-marker" data-text="23"></div>
-                  </li>
+              <li class="progress-step">
+                <div class="progress-marker" data-text="23"></div>
+              </li>
 
-                  <li class="progress-step">
-                    <div class="progress-marker" data-text="24"></div>
-                  </li>
+              <li class="progress-step">
+                <div class="progress-marker" data-text="24"></div>
+              </li>
 
-                  <li class="progress-step">
-                    <div class="progress-marker" data-text="25"></div>
-                  </li>
+              <li class="progress-step">
+                <div class="progress-marker" data-text="25"></div>
+              </li>
 
-                  <li class="progress-step">
-                    <div class="progress-marker" data-text="26"></div>
-                  </li>
+              <li class="progress-step">
+                <div class="progress-marker" data-text="26"></div>
+              </li>
 
-                  <li class="progress-step">
-                    <div class="progress-marker" data-text="27"></div>
-                  </li>
+              <li class="progress-step">
+                <div class="progress-marker" data-text="27"></div>
+              </li>
 
-                  <li class="progress-step">
-                    <div class="progress-marker" data-text="28"></div>
-                  </li>
+              <li class="progress-step">
+                <div class="progress-marker" data-text="28"></div>
+              </li>
 
-                </ul>
+            </ul>
 
-              </div>
-            </div>
+          </div>
+        </div>
       </div>
       <div class="col-lg-6">
         <canvas id="lineChart"></canvas>
       </div>
-   </div>
- </div>
+    </div>
+  </div>
 
   <div id="accordion">
     <div class="card text-center">
@@ -234,18 +236,18 @@
 
       <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
         <div class="card-body">
-            <div class="row">
-              <div class="col-6">
-                <img src="img/izi.jpg" class="img-fluid img-thumbnail" alt="fotopic">
-              </div>
-              <div class="col-6">
-                  <h5>Peso(kg): </h5>
-                  <h5>Collo(cm): 40</h5>
-                  <h5>Vita(cm): 96</h5>
-                  <h5>Fianco(cm): 102</h5>
-                  <h6>01/02/20</h6>
-              </div>
+          <div class="row">
+            <div class="col-6">
+              <img src="img/normal.png" class="img-fluid img-thumbnail" alt="fotopic">
             </div>
+            <div class="col-6">
+              <h5>Peso(kg): </h5>
+              <h5>Collo(cm): 40</h5>
+              <h5>Vita(cm): 96</h5>
+              <h5>Fianco(cm): 102</h5>
+              <h6>01/03/20</h6>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -262,14 +264,14 @@
         <div class="card-body">
           <div class="row">
             <div class="col-6">
-              <img src="img/izi.jpg" class="img-fluid" alt="fotopic">
+              <img src="img/sad.png" class="img-fluid" alt="fotopic">
             </div>
             <div class="col-6">
-                <h5>Peso(kg): </h5>
-                <h5>Collo(cm): </h5>
-                <h5>Vita(cm): </h5>
-                <h5>Fianco(cm): </h5>
-                <h6></h6>
+              <h5>Peso(kg): </h5>
+              <h5>Collo(cm): </h5>
+              <h5>Vita(cm): </h5>
+              <h5>Fianco(cm): </h5>
+              <h6></h6>
             </div>
           </div>
         </div>
@@ -288,14 +290,14 @@
         <div class="card-body">
           <div class="row">
             <div class="col-6">
-              <img src="img/izi.jpg" class="img-fluid" alt="fotopic">
+              <img src="img/sad.png" class="img-fluid" alt="fotopic">
             </div>
             <div class="col-6">
-                <h5>Peso(kg): </h5>
-                <h5>Collo(cm): </h5>
-                <h5>Vita(cm): </h5>
-                <h5>Fianco(cm): </h5>
-                <h6>22/01/20</h6>
+              <h5>Peso(kg): </h5>
+              <h5>Collo(cm): </h5>
+              <h5>Vita(cm): </h5>
+              <h5>Fianco(cm): </h5>
+              <h6>22/01/20</h6>
             </div>
           </div>
         </div>
@@ -314,13 +316,13 @@
         <div class="card-body">
           <div class="row">
             <div class="col-6">
-              <img src="img/izi.jpg" class="img-fluid" alt="fotopic">
+              <img src="img/sad.png" class="img-fluid" alt="fotopic">
             </div>
             <div class="col-6">
-                <h5>Peso(kg) </h5>
-                <h5>Collo(cm) </h5>
-                <h5>Vita(cm) </h5>
-                <h5>Fianco(cm) </h5>
+              <h5>Peso(kg) </h5>
+              <h5>Collo(cm) </h5>
+              <h5>Vita(cm) </h5>
+              <h5>Fianco(cm) </h5>
             </div>
           </div>
         </div>
@@ -332,42 +334,43 @@
   <script src="scripts/site.js"></script>
 
   <script>
-  //line
-  var ctxL = document.getElementById("lineChart").getContext('2d');
-  var myLineChart = new Chart(ctxL, {
-  type: 'line',
-  data: {
-  labels: ["Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno"],
-  datasets: [{
-  label: "Peso ideale",
-  data: [90.8, 87 , 85 , 83, 81, 80, 78],
-  backgroundColor: [
-  'rgba(255, 99, 132, 0.2)',
-  ],
-  borderColor: [
-  'rgb(255, 99, 132)',
-  ],
-  borderWidth: 2
-  },
-  {
-  label: "Peso reale",
-  data: [90.8, ],
-  backgroundColor: [
-  'rgba(0, 137, 132, .2)',
-  ],
-  borderColor: [
-  'rgba(0, 10, 130, .7)',
-  ],
-  borderWidth: 2
-  }
-  ]
-  },
-  options: {
-  responsive: true
-  }
-  });
+    //line
+    var ctxL = document.getElementById("lineChart").getContext('2d');
+    var myLineChart = new Chart(ctxL, {
+      type: 'line',
+      data: {
+        labels: ["Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno"],
+        datasets: [{
+            label: "Peso ideale",
+            data: [90.8, 87, 85, 83, 81, 80, 78],
+            backgroundColor: [
+              'rgba(255, 99, 132, 0.2)',
+            ],
+            borderColor: [
+              'rgb(255, 99, 132)',
+            ],
+            borderWidth: 2
+          },
+          {
+            label: "Peso reale",
+            data: [90.8, 94, ],
+            backgroundColor: [
+              'rgba(0, 137, 132, .2)',
+            ],
+            borderColor: [
+              'rgba(0, 10, 130, .7)',
+            ],
+            borderWidth: 2
+          }
+        ]
+      },
+      options: {
+        responsive: true
+      }
+    });
   </script>
 
 
- </body>
+</body>
+
 </html>

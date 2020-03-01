@@ -1,75 +1,77 @@
 <!DOCTYPE html>
 <html lang="it" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Leaf - The Unforgiven</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!--Cose per far funzionare JavaScript-->
-    <script src="js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/custom.css">
-    <link rel="shortcut icon" href="img/izi_icon.png">
-    <link rel="apple-touch-icon" href="img/izi_icon.png">
-  </head>
-  <body>
-    <!--Menù navbar-->
-   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top sticky-top">
 
-     <!--Il collapse serve per ridurre il menù-->
-     <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
-       <span class="navbar-toggler-icon"></span>
-     </button>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Leaf - The Unforgiven</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!--Cose per far funzionare JavaScript-->
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="shortcut icon" href="img/izi_icon.png">
+  <link rel="apple-touch-icon" href="img/izi_icon.png">
+</head>
 
-     <div class="collapse navbar-collapse" id="collapse_target">
-     <!--Icona nel menù + nome-->
-     <a class="navbar-brand" href="index.html"><img src="img/izi.jpg" alt="icona_pagina" height="35" width="35"></a>
-     <span class="navbar-brand mb-0 h1">Leaf</span>
-     <span class="navbar-text"></span>
+<body>
+  <!--Menù navbar-->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top sticky-top">
 
-     <!--Lista di sezioni nei menù, ogni li è una sezione-->
-     <ul class="navbar-nav">
-       <li class="nav-item">
-         <a class="nav-link" href="all_piano.html">Allenamento</a>
-       </li>
-       <!--Prima sezione dropdown-->
-       <li class="nav-item dropdown">
-         <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
-           Dieta
-           <span class="caret"></span>
-         </a>
-       <!--Elementi nel menù dropdown-->
-         <div class="dropdown-menu" aria-labelledby="dropdown_target">
-           <a class="dropdown-item" href="dieta_piano.html">Piano dieta</a>
-           <a class="dropdown-item" href="dieta_diario.html">Diario</a>
-         </div>
-       </li>
-       <!--Seconda sezione dropdown-->
-       <li class="nav-item dropdown">
-         <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
-           Università
-           <span class="caret"></span>
-         </a>
-       <!--Elementi nel menù dropdown-->
-         <div class="dropdown-menu" aria-labelledby="dropdown_target">
-           <a class="dropdown-item" href="uni_piano.html">Piano studio</a>
-           <a class="dropdown-item" href="uni_materie.html">Materie e crediti</a>
-         </div>
-       </li>
+    <!--Il collapse serve per ridurre il menù-->
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-       <li class="nav-item">
-         <a class="nav-link" href="switch_games.html">Switch</a>
-       </li>
-     </ul>
-     </div>
-   </nav>
-   <!--Fine menù-->
+    <div class="collapse navbar-collapse" id="collapse_target">
+      <!--Icona nel menù + nome-->
+      <a class="navbar-brand" href="index.html"><img src="img/izi.jpg" alt="icona_pagina" height="35" width="35"></a>
+      <span class="navbar-brand mb-0 h1">Leaf</span>
+      <span class="navbar-text"></span>
 
-   <div class="container-fluid">
-     <div class="row">
-       <div class="col">
+      <!--Lista di sezioni nei menù, ogni li è una sezione-->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="all_piano.html">Allenamento</a>
+        </li>
+        <!--Prima sezione dropdown-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
+            Dieta
+            <span class="caret"></span>
+          </a>
+          <!--Elementi nel menù dropdown-->
+          <div class="dropdown-menu" aria-labelledby="dropdown_target">
+            <a class="dropdown-item" href="dieta_piano.html">Piano dieta</a>
+            <a class="dropdown-item" href="dieta_diario.html">Diario</a>
+          </div>
+        </li>
+        <!--Seconda sezione dropdown-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
+            Università
+            <span class="caret"></span>
+          </a>
+          <!--Elementi nel menù dropdown-->
+          <div class="dropdown-menu" aria-labelledby="dropdown_target">
+            <a class="dropdown-item" href="uni_piano.html">Piano studio</a>
+            <a class="dropdown-item" href="uni_materie.html">Materie e crediti</a>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="switch_games.html">Switch</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--Fine menù-->
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
         <h2 class="text-center">Piano allenamento corrente</h2>
         <hr>
       </div>
@@ -79,75 +81,75 @@
   <div class="row">
     <div class="col">
       <div class="table-responsive text-center">
-       <table class="table table-hover table-bordered">
-        <thead>
-          <tr>
-            <th scope="col">Lunedì 🏋️</th>
-            <th scope="col">Mercoledì 🏃🏻‍</th>
-            <th scope="col">Venerdì 🏋️</th>
-            <th scope="col">Domenica 🏃🏻‍</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Panca inclinata - 5 set x 6 rep (1')</td>
-            <td>Leg press – 5 set x 8 rep (1')</td>
-            <td>Panca inclinata - 5 set x 6 rep (1')</td>
-            <td>Leg press – 5 set x 8 rep (1')</td>
-          </tr>
-          <tr>
-            <td>Lat machine - 5 set x 6 rep (1')</td>
-            <td>Affondi – 3 set x 8 rep (1')</td>
-            <td>Lat machine - 5 set x 6 rep (1')</td>
-            <td>Affondi – 3 set x 8 rep (1')</td>
-          </tr>
-          <tr>
-            <td>French press - 3 set x 8 rep (1')</td>
-            <td>Leg curl - 3 set x 6 rep (1')</td>
-            <td>French press - 3 set x 8 rep (1')</td>
-            <td>Leg curl - 3 set x 6 rep (1')</td>
-          </tr>
-          <tr>
-            <td>Cable rows (pull schiena) - 3 set x 8 rep (1')</td>
-            <td>Calf raises - 3 set x 15 rep (1')</td>
-            <td>Cable rows (pull schiena) - 3 set x 8 rep (1')</td>
-            <td>Calf raises - 3 set x 15 rep (1')</td>
-          </tr>
-          <tr>
-            <td>Bicep curls - 3 set x 12 rep (1')</td>
-            <td>Hanging Knee Raises - 3 set x 15 rep (1')</td>
-            <td>Bicep curls - 3 set x 12 rep (1')</td>
-            <td>Hanging Knee Raises - 3 set x 15 rep (1')</td>
-          </tr>
-          <tr>
-            <td>Crunch - 3 set x 10 rep</td>
-            <td>Crunch - 3 set x 10 rep</td>
-            <td>Crunch - 3 set x 10 rep</td>
-            <td>Crunch - 3 set x 10 rep</td>
-          </tr>
-          <tr>
-            <td>Bassi - 3 set x 10 rep</td>
-            <td>Bassi - 3 set x 10 rep</td>
-            <td>Bassi - 3 set x 10 rep</td>
-            <td>Bassi - 3 set x 10 rep</td>
-          </tr>
-          <tr>
-            <td>Plank - 3 set</td>
-            <td>Plank - 3 set</td>
-            <td>Plank - 3 set</td>
-            <td>Plank - 3 set</td>
-          </tr>
-          <tr>
-            <td>Corsa - 5km</td>
-            <td>Corsa - 5km</td>
-            <td>Corsa - 5km</td>
-            <td>Corsa - 5km</td>
-          </tr>
+        <table class="table table-hover table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Lunedì 🏋️</th>
+              <th scope="col">Mercoledì 🏃🏻‍</th>
+              <th scope="col">Venerdì 🏋️</th>
+              <th scope="col">Domenica 🏃🏻‍</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Panca inclinata - 5 set x 6 rep (1')</td>
+              <td>Leg press – 5 set x 8 rep (1')</td>
+              <td>Panca inclinata - 5 set x 6 rep (1')</td>
+              <td>Leg press – 5 set x 8 rep (1')</td>
+            </tr>
+            <tr>
+              <td>Lat machine - 5 set x 6 rep (1')</td>
+              <td>Affondi – 3 set x 8 rep (1')</td>
+              <td>Lat machine - 5 set x 6 rep (1')</td>
+              <td>Affondi – 3 set x 8 rep (1')</td>
+            </tr>
+            <tr>
+              <td>French press - 3 set x 8 rep (1')</td>
+              <td>Leg curl - 3 set x 6 rep (1')</td>
+              <td>French press - 3 set x 8 rep (1')</td>
+              <td>Leg curl - 3 set x 6 rep (1')</td>
+            </tr>
+            <tr>
+              <td>Cable rows (pull schiena) - 3 set x 8 rep (1')</td>
+              <td>Calf raises - 3 set x 15 rep (1')</td>
+              <td>Cable rows (pull schiena) - 3 set x 8 rep (1')</td>
+              <td>Calf raises - 3 set x 15 rep (1')</td>
+            </tr>
+            <tr>
+              <td>Bicep curls - 3 set x 12 rep (1')</td>
+              <td>Hanging Knee Raises - 3 set x 15 rep (1')</td>
+              <td>Bicep curls - 3 set x 12 rep (1')</td>
+              <td>Hanging Knee Raises - 3 set x 15 rep (1')</td>
+            </tr>
+            <tr>
+              <td>Crunch - 3 set x 10 rep</td>
+              <td>Crunch - 3 set x 10 rep</td>
+              <td>Crunch - 3 set x 10 rep</td>
+              <td>Crunch - 3 set x 10 rep</td>
+            </tr>
+            <tr>
+              <td>Bassi - 3 set x 10 rep</td>
+              <td>Bassi - 3 set x 10 rep</td>
+              <td>Bassi - 3 set x 10 rep</td>
+              <td>Bassi - 3 set x 10 rep</td>
+            </tr>
+            <tr>
+              <td>Plank - 3 set</td>
+              <td>Plank - 3 set</td>
+              <td>Plank - 3 set</td>
+              <td>Plank - 3 set</td>
+            </tr>
+            <tr>
+              <td>Corsa - 5km</td>
+              <td>Corsa - 5km</td>
+              <td>Corsa - 5km</td>
+              <td>Corsa - 5km</td>
+            </tr>
 
-        </tbody>
-      </table>
+          </tbody>
+        </table>
+      </div>
     </div>
-   </div>
   </div>
 
   <hr>
@@ -180,10 +182,11 @@
     <div class="col-12 col-md-6">
       <p class="text-center">Disclaimer</p>
       <p class="text-center">Quando raggiungi le ripetizioni richieste, aumenta il peso di 2.5 kg nei prossimi workout.
-      Se non riesci a fare alcune ripetizioni, il tuo obiettivo per il prossimo workout è raggiungere quelle ripetizioni mancante, così puoi aumentare il peso la prossima volta.</p>
+        Se non riesci a fare alcune ripetizioni, il tuo obiettivo per il prossimo workout è raggiungere quelle ripetizioni mancante, così puoi aumentare il peso la prossima volta.</p>
     </div>
 
   </div>
 
- </body>
+</body>
+
 </html>
