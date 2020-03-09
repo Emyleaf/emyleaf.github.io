@@ -12,6 +12,7 @@
   <!--Cose per far funzionare JavaScript-->
   <script src="js/bootstrap.min.js"></script>
   <script src="js/mdb.js"></script>
+  <link rel="stylesheet" href="css/dark-mode.css">
   <link rel="stylesheet" href="css/custom.css">
   <link rel="stylesheet" href="css/progress-tracker.css">
   <link rel="shortcut icon" href="img/izi_icon.png">
@@ -34,7 +35,7 @@
       <span class="navbar-text"></span>
 
       <!--Lista di sezioni nei menù, ogni li è una sezione-->
-      <ul class="navbar-nav">
+      <ul class="navbar-nav mr-auto">
         <li class="nav-item">
           <a class="nav-link" href="all_piano.html">Allenamento</a>
         </li>
@@ -66,7 +67,22 @@
         <li class="nav-item">
           <a class="nav-link" href="switch_games.html">Switch</a>
         </li>
+
       </ul>
+
+      <ul class="navbar-nav ml-auto">
+
+           <li class="nav-item">
+             <div class="nav-link">
+               <div class="custom-control custom-switch">
+                 <input type="checkbox" class="custom-control-input" id="darkSwitch">
+                 <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+               </div>
+             </div>
+           </li>
+
+       </ul>
+
     </div>
   </nav>
   <!--Fine menù-->
@@ -93,27 +109,27 @@
                 <div class="progress-marker" data-text="1"></div>
               </li>
 
-              <li class="progress-step">
+              <li class="progress-step is-complete">
                 <div class="progress-marker" data-text="2"></div>
               </li>
 
-              <li class="progress-step">
+              <li class="progress-step is-complete">
                 <div class="progress-marker" data-text="3"></div>
               </li>
 
-              <li class="progress-step">
+              <li class="progress-step is-complete">
                 <div class="progress-marker" data-text="4"></div>
               </li>
 
-              <li class="progress-step">
+              <li class="progress-step is-complete">
                 <div class="progress-marker" data-text="5"></div>
               </li>
 
-              <li class="progress-step">
+              <li class="progress-step is-complete">
                 <div class="progress-marker" data-text="6"></div>
               </li>
 
-              <li class="progress-step">
+              <li class="progress-step is-complete">
                 <div class="progress-marker" data-text="7"></div>
               </li>
 
@@ -121,11 +137,11 @@
 
             <ul class="progress-tracker progress-tracker--left">
 
-              <li class="progress-step">
+              <li class="progress-step is-complete">
                 <div class="progress-marker" data-text="8"></div>
               </li>
 
-              <li class="progress-step">
+              <li class="progress-step is-complete">
                 <div class="progress-marker" data-text="9"></div>
               </li>
 
@@ -238,7 +254,7 @@
         <div class="card-body">
           <div class="row">
             <div class="col-6">
-              <img src="img/normal.png" class="img-fluid img-thumbnail" alt="fotopic">
+              <img src="img/normal.png" class="img-fluid" alt="fotopic">
             </div>
             <div class="col-6">
               <h5>Peso(kg): 93</h5>
@@ -370,6 +386,7 @@
     });
   </script>
 
+<script src="js/dark-mode-switch.min.js"></script>
 
 </body>
 

@@ -1,0 +1,45 @@
+[data-theme="dark"] {
+  background-color: #111 !important;
+  color: #eee;
+}
+
+[data-theme="dark"] .bg-light {
+  background-color: #333 !important;
+}
+
+[data-theme="dark"] .bg-white {
+  background-color: #000 !important;
+}
+
+[data-theme="dark"] .card {
+  background-color: #111 !important;
+}
+
+[data-theme="dark"] .bg-black {
+  background-color: #eee !important;
+}
+
+[data-theme="dark"] .table {
+  background-color: #111 !important;
+  color: #eee;
+}
+
+[data-theme="dark"] .table-success{
+  background-color: #111 !important;
+  color: #111;
+}
+
+[data-theme="dark"] .table-danger{
+  background-color: #111 !important;
+  color: #111;
+}
+
+[data-theme="dark"] .table-warning{
+  background-color: #111 !important;
+  color: #111;
+}
+
+[data-theme="dark"] .btn {
+  background-color: #111 !important;
+  color: #eee;
+}

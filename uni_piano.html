@@ -12,6 +12,7 @@
   <!--Cose per far funzionare JavaScript-->
   <script src="js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/dark-mode.css">
   <link rel="shortcut icon" href="img/izi_icon.png">
   <link rel="apple-touch-icon" href="img/izi_icon.png">
 </head>
@@ -32,7 +33,7 @@
       <span class="navbar-text"></span>
 
       <!--Lista di sezioni nei menù, ogni li è una sezione-->
-      <ul class="navbar-nav">
+      <ul class="navbar-nav mr-auto">
         <li class="nav-item">
           <a class="nav-link" href="all_piano.html">Allenamento</a>
         </li>
@@ -64,7 +65,22 @@
         <li class="nav-item">
           <a class="nav-link" href="switch_games.html">Switch</a>
         </li>
+
       </ul>
+
+      <ul class="navbar-nav ml-auto">
+
+           <li class="nav-item">
+             <div class="nav-link">
+               <div class="custom-control custom-switch">
+                 <input type="checkbox" class="custom-control-input" id="darkSwitch">
+                 <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+               </div>
+             </div>
+           </li>
+
+       </ul>
+
     </div>
   </nav>
   <!--Fine menù-->
@@ -85,13 +101,13 @@
           <thead>
             <tr>
               <th scope="col">Orario</th>
-              <th scope="col">Lunedì 📚🕙19.30</th>
+              <th scope="col">Lunedì 📚🕙22</th>
               <th scope="col">Martedì 📚🕙22</th>
               <th scope="col">Mercoledì 📚🕙22</th>
               <th scope="col">Giovedì 📚🕙22</th>
-              <th scope="col">Venerdì 📚🕙23</th>
+              <th scope="col">Venerdì 📚🕙22</th>
               <th scope="col">Sabato 📚</th>
-              <th scope="col">Domenica 📚🕙10-23</th>
+              <th scope="col">Domenica 📚🕙10-19</th>
             </tr>
           </thead>
           <tbody>
@@ -398,7 +414,7 @@
       <div class="card-header" id="headingSix">
         <h5 class="mb-0">
           <button class="btn dropdown-toggle" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
-            Basi di dati
+            Basi di dati // 30-03-2020 (?)
           </button>
         </h5>
       </div>
@@ -413,9 +429,9 @@
               </div>
               <br />
               <ol>
-                <li>Funzionalità dei sistemi di gestione basi di dati</li>
-                <li>Modellazione a oggetti</li>
-                <li></li>
+                <li><del>Funzionalità dei sistemi di gestione basi di dati</del></li>
+                <li><del>Modellazione a oggetti</del></li>
+                <li><del>Il modello a oggetti</del></li>
                 <li></li>
                 <li></li>
                 <li></li>
@@ -500,10 +516,10 @@
               </div>
               <br />
               <ol>
-                <li>Introduzione al corso. Rappresentazione dei numeri in base. Numeri di macchina.</li>
-                <li>Aritmetica di macchina. Errore di rappresentazione. Operazioni di macchina.</li>
-                <li>Introduzione a Matlab. Aritmetica di macchina.</li>
-                <li></li>
+                <li>Introduzione al corso. Rappresentazione dei numeri in base. Numeri di macchina. (capitolo 1)</li>
+                <li>Aritmetica di macchina. Errore di rappresentazione. Operazioni di macchina. (capitolo 2)</li>
+                <li>Introduzione a Matlab. Aritmetica di macchina. (laboratorio)</li>
+                <li>Errore inerente, algoritmico e totale nel calcolo di una funzione razionale. Condizionamento e stabilita`. (capitolo 3)</li>
                 <li></li>
                 <li></li>
                 <li></li>
@@ -555,6 +571,7 @@
 
   </div>
 
+<script src="js/dark-mode-switch.min.js"></script>
 </body>
 
 </html>

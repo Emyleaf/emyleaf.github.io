@@ -12,6 +12,7 @@
   <!--Cose per far funzionare JavaScript-->
   <script src="js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/dark-mode.css">
   <link rel="shortcut icon" href="img/izi_icon.png">
   <link rel="apple-touch-icon" href="img/izi_icon.png">
 </head>
@@ -32,7 +33,7 @@
       <span class="navbar-text"></span>
 
       <!--Lista di sezioni nei menù, ogni li è una sezione-->
-      <ul class="navbar-nav">
+      <ul class="navbar-nav mr-auto">
         <li class="nav-item">
           <a class="nav-link" href="all_piano.html">Allenamento</a>
         </li>
@@ -64,7 +65,22 @@
         <li class="nav-item">
           <a class="nav-link" href="switch_games.html">Switch</a>
         </li>
+
       </ul>
+
+      <ul class="navbar-nav ml-auto">
+
+           <li class="nav-item">
+             <div class="nav-link">
+               <div class="custom-control custom-switch">
+                 <input type="checkbox" class="custom-control-input" id="darkSwitch">
+                 <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+               </div>
+             </div>
+           </li>
+
+       </ul>
+
     </div>
   </nav>
   <!--Fine menù-->
@@ -165,7 +181,7 @@
       <div class="row">
         <div class="col">
           <div class="text">
-            <h4><span>Digitali (28)</span></h4>
+            <h4><span>Digitali (31)</span></h4>
             <hr class="sottile">
           </div>
         </div>
@@ -292,8 +308,31 @@
           <img src="img/switch_dd.png" alt="darkestdungeon" class="img-fluid img-thumbnail">
           <h6 class="text">Darkest Dungeon</h6>
         </div>
+        <div class="col-6 col-lg-2 col-md-3 col-sm-4">
+          <img src="img/switch_celeste.png" alt="celeste" class="img-fluid img-thumbnail">
+          <h6 class="text">Celeste</h6>
+        </div>
+        <div class="col-6 col-lg-2 col-md-3 col-sm-4">
+          <img src="img/switch_murder.png" alt="murderbynumbers" class="img-fluid img-thumbnail">
+          <h6 class="text">Murder by Numbers</h6>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-6 col-lg-2 col-md-3 col-sm-4">
+          <img src="img/switch_oldman.png" alt="oldman" class="img-fluid img-thumbnail">
+          <h6 class="text">Old Man's Journey</h6>
+        </div>
+
 
 
       </div>
+
+
     </div>
   </section>
+
+<script src="js/dark-mode-switch.min.js"></script>
+</body>
+
+</html>
